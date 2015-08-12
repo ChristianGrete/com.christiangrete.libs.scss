@@ -1,0 +1,29 @@
+{
+  "authors": [
+    {
+      "email": "webmaster@christiangrete.com",
+      "homepage": "https://christiangrete.com",
+      "name": "Christian Grete"
+    }
+  ],
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "homepage": "https://github.com/ChristianGrete/com.christiangrete.libs.scss",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    ".bowerrc",
+    "package.json"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/library.scss",
+  "name": "com.christiangrete.libs.scss",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChristianGrete/com.christiangrete.libs.scss"
+  },
+  "version": "0.0.0"
+}
