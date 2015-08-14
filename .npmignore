@@ -1,0 +1,10 @@
+.bowerrc
+.editorconfig
+.gitignore
+.sass-cache/
+.tm_properties
+bower_components/
+bower.json
+build/
+debug/
+src/

@@ -11,10 +11,16 @@
   "devDependencies": {},
   "homepage": "https://github.com/ChristianGrete/com.christiangrete.libs.scss",
   "ignore": [
+    ".bowerrc",
     ".editorconfig",
     ".gitignore",
-    ".bowerrc",
-    "package.json"
+    ".sass-cache/",
+    ".tm_properties",
+    "build/",
+    "debug/",
+    "node_modules/",
+    "package.json",
+    "src/"
   ],
   "keywords": [],
   "license": "MIT",
