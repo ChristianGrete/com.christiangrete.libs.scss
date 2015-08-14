@@ -43,8 +43,5 @@
     "type": "git",
     "url": "git://github.com/ChristianGrete/com.christiangrete.libs.scss"
   },
-  "scripts": {
-    "install": "bower cache clean && bower install -V"
-  },
   "version": "0.0.0"
 }
