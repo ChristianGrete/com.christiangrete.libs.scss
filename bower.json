@@ -16,6 +16,7 @@
     ".gitignore",
     ".sass-cache/",
     ".tm_properties",
+    "bin/",
     "build/",
     "debug/",
     "node_modules/",

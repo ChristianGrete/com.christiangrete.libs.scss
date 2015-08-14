@@ -3,6 +3,7 @@
 .gitignore
 .sass-cache/
 .tm_properties
+bin/
 bower_components/
 build/
 debug/
