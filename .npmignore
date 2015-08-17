@@ -7,4 +7,5 @@ bin/
 bower_components/
 build/
 debug/
+docs/
 src/
