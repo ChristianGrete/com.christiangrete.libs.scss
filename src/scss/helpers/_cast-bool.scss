@@ -1,0 +1,13 @@
+@function cast-bool ( $mixed: null ) {
+
+  @return if(
+      not $mixed
+        or $mixed == 0
+          or $mixed == ''
+            or $mixed == '0'
+              or $mixed == (),
+      false,
+      true
+    );
+
+}
