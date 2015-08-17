@@ -2,6 +2,7 @@
   "GLOB__SCSS__RECURSIVE": "**/*.{css,sass,scss}",
   "PATH__BUILD": "./build",
   "PATH__DEBUG": "./debug",
+  "PATH__DOCS": "./docs",
   "PATH__DIST": "./dist",
   "PATH__SRC__SCSS": "./src/scss"
 }
