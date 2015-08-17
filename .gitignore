@@ -2,5 +2,6 @@
 bower_components/
 build/
 debug/
+docs/
 node_modules/
 npm-debug.log
