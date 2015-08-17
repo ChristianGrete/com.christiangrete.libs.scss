@@ -1,0 +1,12 @@
+$rules--selection--use-prefix: true;
+
+
+@mixin selection ( $selector: null ) {
+
+  @if cast-bool( $rules--selection--use-prefix ) {
+    #{ $selector }::-moz-selection { @content; }
+  }
+
+  #{ $selector }::selection { @content; }
+
+}
