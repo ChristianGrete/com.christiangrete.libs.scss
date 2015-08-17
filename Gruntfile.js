@@ -16,7 +16,8 @@ module.exports = function ( $grunt ) {
         'cfg': _$grunt__file__readJSON('./config/grunt.json'),
         'clean': {
             'build': '<%= grunt.option("release") ? cfg.PATH__DIST : cfg.PATH__BUILD %>',
-            'debug': '<%= cfg.PATH__DEBUG %>'
+            'debug': '<%= cfg.PATH__DEBUG %>',
+            'docs': '<%= cfg.PATH__DOCS %>'
           },
         'copy': {
             'src': {
@@ -43,13 +44,24 @@ module.exports = function ( $grunt ) {
                 'ext': '.css',
                 'src': '<%= copy.src.src %>'
               }
+          },
+        'sassdoc': {
+            'docs': {
+                'options': {
+                    'dest': '<%= clean.docs %>',
+                    'verbose': true,
+                    'strict': true
+                  },
+                'src': '<%= copy.src.cwd %>/<%= copy.src.src %>'
+              }
           }
       },
 
     _plugins = [
         'grunt-contrib-*',
         'grunt-jsonlint',
-        'grunt-sass'
+        'grunt-sass',
+        'grunt-sassdoc'
       ],
 
     _tasks = {
@@ -65,7 +77,12 @@ module.exports = function ( $grunt ) {
         'default': [
             'jsonlint:manifests'
           ],
+        'document': [
+            'clean:docs',
+            'sassdoc:docs'
+          ],
         'unbuild': 'clean:build',
+        'undocument': 'clean:docs',
         'uncompile': 'clean:debug'
       };
 
