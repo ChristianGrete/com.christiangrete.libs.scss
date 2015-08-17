@@ -1,7 +1,33 @@
+/// Flag whether to use a vendor prefix in “selection” rule or not
+/// @access public
+/// @author Christian Grete
+/// @example
+///   $rules--selection--use-prefix: false;
+///   
+///   @include selection( div ) {
+///     color: blue;
+///   }
+/// @group rules
+/// @see {Mixin} selection
+/// @type Bool
+
 $rules--selection--use-prefix: true;
 
 
-@mixin selection ( $selector: null ) {
+/// Enables cross-browser “selection” declarations
+/// @access public
+/// @author Christian Grete
+/// @content
+/// @example
+///   @include selection( span ) {
+///     color: red;
+///   }
+/// @group rules
+/// @parameter {String} $selector [''] - The selector to apply this rule to
+/// @require {Bool} $rules--selection--use-prefix
+/// @see {Bool} $rules--selection--use-prefix
+
+@mixin selection ( $selector: '' ) {
 
   @if cast-bool( $rules--selection--use-prefix ) {
     #{ $selector }::-moz-selection { @content; }
