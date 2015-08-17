@@ -19,6 +19,7 @@
     "bin/",
     "build/",
     "debug/",
+    "docs/",
     "node_modules/",
     "src/"
   ],
