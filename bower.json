@@ -14,13 +14,17 @@
     ".bowerrc",
     ".editorconfig",
     ".gitignore",
+    ".npmignore",
     ".sass-cache/",
     ".tm_properties",
     "bin/",
     "build/",
+    "config/",
     "debug/",
     "docs/",
+    "Gruntfile.js",
     "node_modules/",
+    "package.json",
     "src/"
   ],
   "keywords": [],
@@ -32,5 +36,5 @@
     "type": "git",
     "url": "git://github.com/ChristianGrete/com.christiangrete.libs.scss"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
