@@ -1,11 +1,21 @@
-@function cast-bool ( $mixed: null ) {
+/// Returns a converted bool value of the passed value
+/// @access public
+/// @author Christian Grete
+/// @example
+///   cast-bool( 1 ); // Returns true
+///   cast-bool( 0 ); // Returns false
+/// @group helpers
+/// @parameter {Mixed} $value [null] - The value to be converted into a boolean
+/// @return {Bool} The converted value
+
+@function cast-bool ( $value: null ) {
 
   @return if(
-      not $mixed
-        or $mixed == 0
-          or $mixed == ''
-            or $mixed == '0'
-              or $mixed == (),
+      not $value
+        or $value == 0
+          or $value == ''
+            or $value == '0'
+              or $value == (),
       false,
       true
     );
