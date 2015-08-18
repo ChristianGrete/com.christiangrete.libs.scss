@@ -2,6 +2,7 @@
 
 > The SCSS Library for [christiangrete.com](https://christiangrete.com)
 
+
 ## Development
 
 ### Installation
@@ -28,7 +29,7 @@ $ npm install -g bower
 
 __Make sure that all required tools are installed__, then clone this repository onto your machine:
 ```sh
-$ cd /my/desired/directory # Navigate into the folder of your choice, then:
+$ cd /your/desired/directory # Navigate into the folder of your choice, then:
 $ git clone git@github.com:ChristianGrete/com.christiangrete.libs.scss.git
 $ cd com.christiangrete.libs.scss # Navigate into the project folder
 ```
@@ -50,3 +51,8 @@ $ grunt build # Generates an artifact for testing purposes
 $ grunt unbuild # Deletes the generated “build” directory
 $ grunt build --release # Generates an artifact for distribution
 ```
+
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT) © [Christian Grete](https://christiangrete.com)
