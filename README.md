@@ -79,3 +79,6 @@ $ grunt build --release # Generates an artifact for distribution
 ## License
 
 [MIT](http://opensource.org/licenses/MIT) © [Christian Grete](https://christiangrete.com)
+- [GitHub](https://github.com/ChristianGrete)
+- [Twitter](https://twitter.com/ChristianGrete)
+- [XING](https://www.xing.com/profile/Christian_Grete2)
