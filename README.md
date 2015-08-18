@@ -24,6 +24,7 @@ Otherwise, when using npm, it is installed as a subfolder to your Node.js module
 ```css
 @import 'node_modules/com.christiangrete.libs.scss/dist/library';
 ```
+After that, the library with all its configurations, functions and mixins is available and ready to be used in your stylesheet.
 
 
 ## Development
