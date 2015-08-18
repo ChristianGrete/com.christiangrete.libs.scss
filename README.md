@@ -3,6 +3,25 @@
 > The SCSS Library for [christiangrete.com](https://christiangrete.com)
 
 
+## Getting started
+
+### Installation
+Install this library as a dependency to your project using [Bower](http://bower.io):
+```sh
+$ bower install --save-dev com.christiangrete.libs.scss
+```
+Alternatively, this library is also available using [npm](https://www.npmjs.org):
+```sh
+$ npm install --save-dev com.christiangrete.libs.scss
+```
+
+### Usage
+In case of using Bower, this library is installed as a subfolder to your Bower components directory, that defaults to `bower_components`. All you need to do is importing the `library.scss` file that is located topmost in the before mentioned subfolder:
+```css
+@import 'bower_components/com.christiangrete.libs.scss/dist/library';
+```
+
+
 ## Development
 
 ### Installation
