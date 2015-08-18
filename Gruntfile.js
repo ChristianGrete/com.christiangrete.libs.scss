@@ -19,6 +19,18 @@ module.exports = function ( $grunt ) {
             'debug': '<%= cfg.PATH__DEBUG %>',
             'docs': '<%= cfg.PATH__DOCS %>'
           },
+        'connect': {
+            'docs': {
+                'options': {
+                    'base': '<%= clean.docs %>',
+                    'hostname': 'localhost',
+                    'livereload': true,
+                    'open': true,
+                    'port': 8080,
+                    'useAvailablePort': true
+                  }
+              }
+          },
         'copy': {
             'src': {
                 'cwd': '<%= cfg.PATH__SRC__SCSS %>',
@@ -62,7 +74,7 @@ module.exports = function ( $grunt ) {
             'src': {
                 'files': '<%= sassdoc.docs.src %>',
                 'tasks': [
-                    'document'
+                    'sassdoc:docs'
                   ]
               }
           }
@@ -88,12 +100,13 @@ module.exports = function ( $grunt ) {
         'default': [
             'jsonlint:manifests'
           ],
-        'document': [
+        'serve': [
             'clean:docs',
-            'sassdoc:docs'
+            'sassdoc:docs',
+            'connect:docs',
+            'watch'
           ],
         'unbuild': 'clean:build',
-        'undocument': 'clean:docs',
         'uncompile': 'clean:debug'
       };
 
