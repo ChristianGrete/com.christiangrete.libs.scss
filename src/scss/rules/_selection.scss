@@ -24,6 +24,7 @@ $rules--selection--use-prefix: true;
 ///   }
 /// @group rules
 /// @parameter {String} $selector [''] - The selector to apply this rule to
+/// @require {Function} cast-bool
 /// @require {Bool} $rules--selection--use-prefix
 /// @see {Bool} $rules--selection--use-prefix
 
