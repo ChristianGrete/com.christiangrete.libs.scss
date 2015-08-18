@@ -54,6 +54,17 @@ module.exports = function ( $grunt ) {
                   },
                 'src': '<%= copy.src.cwd %>/<%= copy.src.src %>'
               }
+          },
+        'watch': {
+            'options': {
+                'livereload': true
+              },
+            'src': {
+                'files': '<%= sassdoc.docs.src %>',
+                'tasks': [
+                    'document'
+                  ]
+              }
           }
       },
 
