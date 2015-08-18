@@ -20,6 +20,10 @@ In case of using Bower, this library is installed as a subfolder to your Bower c
 ```css
 @import 'bower_components/com.christiangrete.libs.scss/dist/library';
 ```
+Otherwise, when using npm, it is installed as a subfolder to your Node.js modules directory, called `node_modules`. In this case, you need to import the `library.scss` file that is located topmost in the following subfolder:
+```css
+@import 'node_modules/com.christiangrete.libs.scss/dist/library';
+```
 
 
 ## Development
