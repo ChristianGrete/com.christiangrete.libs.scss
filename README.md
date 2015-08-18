@@ -5,8 +5,7 @@
 ## Development
 
 ### Installation
-Following _global_ tools are needed if you do not already have them:
-
+The following _global_ tools are needed if you do not already have them:
 - [Node.js](http://nodejs.org/download) (JavaScript runtime environment)
     - Required by npm, Bower and Grunt (see below)
 - [npm](https://www.npmjs.org) (Package manager for Node.js)
@@ -37,4 +36,17 @@ $ cd com.christiangrete.libs.scss # Navigate into the project folder
 __After navigating into the project directory__, execute the installer script:
 ```sh
 $ sh bin/install.sh # Installs all local dependencies & components
+```
+
+### Automation
+The following `grunt` tasks are available:
+```sh
+$ grunt # Runs the “default” task, see below
+$ grunt default # The default task — validates the manifest JSON files
+$ grunt compile # Compiles the “src/sass” directory for testing purposes
+$ grunt uncompile # Deletes the compiled “debug” directory
+$ grunt serve # Runs SassDoc, starts a web server with LiveReload
+$ grunt build # Generates an artifact for testing purposes
+$ grunt unbuild # Deletes the generated “build” directory
+$ grunt build --release # Generates an artifact for distribution
 ```
