@@ -5,7 +5,10 @@
 .tm_properties
 bin/
 bower_components/
+bower.json
 build/
+config/
 debug/
 docs/
+Gruntfile.js
 src/
