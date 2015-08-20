@@ -14,6 +14,7 @@ Alternatively, this library is also available using [npm](https://www.npmjs.org)
 ```sh
 $ npm install --save-dev com.christiangrete.libs.scss
 ```
+For whatever reason you want to use [Composer](https://getcomposer.org), this library can be installed from its [GitHub repository](https://github.com/ChristianGrete/com.christiangrete.libs.scss) since version 0.0.3 using the `repositories.vcs` property in your `composer.json` file as well. See [Composer docs](https://getcomposer.org/doc/05-repositories.md#vcs) for further information.
 
 ### Usage
 In case of using Bower, this library is installed as a subfolder to your Bower components directory, that defaults to `bower_components`. All you need to do is importing the `library.scss` file that is located topmost in the before mentioned subfolder:
@@ -81,5 +82,6 @@ $ grunt build --release # Generates an artifact for distribution
 
 [MIT](http://opensource.org/licenses/MIT) © [Christian Grete](https://christiangrete.com)
 - [GitHub](https://github.com/ChristianGrete)
+- [npm](https://www.npmjs.com/~christiangrete)
 - [Twitter](https://twitter.com/ChristianGrete)
 - [XING](https://www.xing.com/profile/Christian_Grete2)

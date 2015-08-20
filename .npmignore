@@ -7,6 +7,9 @@ bin/
 bower_components/
 bower.json
 build/
+composer_packages/
+composer.json
+composer.lock
 config/
 debug/
 docs/

@@ -1,0 +1,25 @@
+{
+  "authors": [
+    {
+      "email": "webmaster@christiangrete.com",
+      "homepage": "https://christiangrete.com",
+      "name": "Christian Grete",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "composer_packages"
+  },
+  "description": "",
+  "homepage": "https://github.com/ChristianGrete/com.christiangrete.libs.scss",
+  "keywords": [],
+  "license": "MIT",
+  "name": "com/christiangrete/libs/scss",
+  "require": {},
+  "require-dev": {},
+  "support": {
+    "email": "webmaster@christiangrete.com",
+    "issues": "https://github.com/ChristianGrete/com.christiangrete.libs.scss/issues"
+  },
+  "version": "0.0.3"
+}
