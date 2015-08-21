@@ -9,6 +9,7 @@
 ///   }
 /// @group rules
 /// @see {Mixin} selection
+/// @since 0.0.1
 /// @type Bool
 
 $rules--selection--use-prefix: true;
@@ -27,6 +28,7 @@ $rules--selection--use-prefix: true;
 /// @require {Function} cast-bool
 /// @require {Bool} $rules--selection--use-prefix
 /// @see {Bool} $rules--selection--use-prefix
+/// @since 0.0.1
 
 @mixin selection ( $selector: '' ) {
 

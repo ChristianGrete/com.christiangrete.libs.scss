@@ -1,0 +1,16 @@
+/// Returns whether the passed value is of type number or not
+/// @access public
+/// @author Christian Grete
+/// @example
+///   is-number( '1' ); // Returns false
+///   is-number( 1 ); // Returns true
+/// @group helpers
+/// @parameter {Mixed} $value - The value to be type-checked
+/// @return {Bool} The result
+/// @since 0.0.4
+
+@function is-number ( $value ) {
+
+  @return type-of( $value ) == number;
+
+}

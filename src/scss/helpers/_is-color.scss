@@ -1,0 +1,16 @@
+/// Returns whether the passed value is of type color or not
+/// @access public
+/// @author Christian Grete
+/// @example
+///   is-color( fff ); // Returns false
+///   is-color( #fff ); // Returns true
+/// @group helpers
+/// @parameter {Mixed} $value - The value to be type-checked
+/// @return {Bool} The result
+/// @since 0.0.4
+
+@function is-color ( $value ) {
+
+  @return type-of( $value ) == color;
+
+}

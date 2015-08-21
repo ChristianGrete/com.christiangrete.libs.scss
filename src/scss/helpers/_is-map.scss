@@ -1,0 +1,18 @@
+/// Returns whether the passed value is of type map or not
+/// @access public
+/// @author Christian Grete
+/// @example
+///   is-map( (1px 2px) ); // Returns false
+///   is-map( (foo: bar) ) // Returns true
+///   is-map( () ); // Returns also true
+/// @group helpers
+/// @parameter {Mixed} $value - The value to be type-checked
+/// @return {Bool} The result
+/// @since 0.0.4
+
+@function is-map ( $value ) {
+
+  @return type-of( $value ) == map
+    or $value == ();
+
+}

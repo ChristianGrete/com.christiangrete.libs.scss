@@ -5,10 +5,11 @@
 ///   cast-bool( 1 ); // Returns true
 ///   cast-bool( 0 ); // Returns false
 /// @group helpers
-/// @parameter {Mixed} $value [null] - The value to be converted into a boolean
+/// @parameter {Mixed} $value - The value to be converted into a boolean
 /// @return {Bool} The converted value
+/// @since 0.0.4
 
-@function cast-bool ( $value: null ) {
+@function cast-bool ( $value ) {
 
   @return if(
       not $value
