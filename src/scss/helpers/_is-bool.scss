@@ -1,0 +1,15 @@
+/// Returns whether the passed value is of type bool or not
+/// @access public
+/// @author Christian Grete
+/// @example
+///   is-bool( 0 ); // Returns false
+///   is-bool( false ); // Returns true
+/// @group helpers
+/// @parameter {Mixed} $value - The value to be type-checked
+/// @return {Bool} The result
+
+@function is-bool ( $value ) {
+
+  @return type-of( $value ) == bool;
+
+}
