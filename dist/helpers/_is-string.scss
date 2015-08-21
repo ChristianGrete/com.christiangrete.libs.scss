@@ -1,0 +1,16 @@
+/// Returns whether the passed value is of type string or not
+/// @access public
+/// @author Christian Grete
+/// @example
+///   is-string( 1px ); // Returns false
+///   is-string( foo ); // Returns true
+/// @group helpers
+/// @parameter {Mixed} $value - The value to be type-checked
+/// @return {Bool} The result
+/// @since 0.0.4
+
+@function is-string ( $value ) {
+
+  @return type-of( $value ) == string;
+
+}
