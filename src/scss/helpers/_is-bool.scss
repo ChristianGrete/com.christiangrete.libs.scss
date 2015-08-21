@@ -7,6 +7,7 @@
 /// @group helpers
 /// @parameter {Mixed} $value - The value to be type-checked
 /// @return {Bool} The result
+/// @since 0.0.4
 
 @function is-bool ( $value ) {
 
