@@ -1,7 +1,9 @@
 # com.christiangrete.libs.scss
 
-> The SCSS Library for [christiangrete.com](https://christiangrete.com)
+[![Node.js Module Version](https://img.shields.io/npm/v/com.christiangrete.libs.scss.svg)](https://www.npmjs.com/package/com.christiangrete.libs.scss)
+[![Bower Component Version](https://img.shields.io/bower/v/com.christiangrete.libs.scss.svg)](http://bower.io/search/?q=com.christiangrete.libs.scss)
 
+> The SCSS Library for [christiangrete.com](https://christiangrete.com)
 
 ## Getting started
 
