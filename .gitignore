@@ -1,8 +1,8 @@
 .sass-cache/
+*.lock
 bower_components/
 build/
 composer_packages/
-composer.lock
 debug/
 docs/
 node_modules/

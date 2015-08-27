@@ -1,7 +1,11 @@
 # com.christiangrete.libs.scss
 
+[![Node.js Module Version](https://img.shields.io/npm/v/com.christiangrete.libs.scss.svg)](https://www.npmjs.com/package/com.christiangrete.libs.scss)
+[![Bower Component Version](https://img.shields.io/bower/v/com.christiangrete.libs.scss.svg)](http://bower.io/search/?q=com.christiangrete.libs.scss)
+
 > The SCSS Library for [christiangrete.com](https://christiangrete.com)
 
+This library is provided as an artifact to be installed as a dependency into your project and will not generate any CSS code. It is authored in SCSS syntax and consists of configurable functions and mixins that will extend the native set of Sass utilities and provide many helpful cross-browser solutions to improve your workflow in a simple way without worrying about vendor prefixes. It is also inspired by other programming languages and modular, object-oriented concepts and tries to concur with the CSS specs in the best possible way.
 
 ## Getting started
 

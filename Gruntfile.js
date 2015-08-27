@@ -67,6 +67,12 @@ module.exports = function ( $grunt ) {
                 'src': '<%= copy.src.cwd %>/<%= copy.src.src %>'
               }
           },
+        'scsslint': {
+            'options': {
+                'config': '<%= cfg.PATH__CONFIG %>/scss-lint.yml'
+              },
+            'src': '<%= sassdoc.docs.src %>'
+          },
         'watch': {
             'options': {
                 'livereload': true
@@ -84,7 +90,8 @@ module.exports = function ( $grunt ) {
         'grunt-contrib-*',
         'grunt-jsonlint',
         'grunt-sass',
-        'grunt-sassdoc'
+        'grunt-sassdoc',
+        'grunt-scss-lint'
       ],
 
     _tasks = {
@@ -98,7 +105,8 @@ module.exports = function ( $grunt ) {
             'sass:debug'
           ],
         'default': [
-            'jsonlint:manifests'
+            'jsonlint:manifests',
+            'scsslint:src'
           ],
         'serve': [
             'clean:docs',

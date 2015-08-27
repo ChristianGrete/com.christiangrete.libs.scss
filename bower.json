@@ -17,17 +17,19 @@
     ".npmignore",
     ".sass-cache/",
     ".tm_properties",
+    "*.lock",
     "bin/",
     "build/",
     "composer_packages/",
     "composer.json",
-    "composer.lock",
     "config/",
     "debug/",
     "docs/",
+    "Gemfile",
     "Gruntfile.js",
     "node_modules/",
     "package.json",
+    "sache.json",
     "src/"
   ],
   "keywords": [],
@@ -37,7 +39,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/ChristianGrete/com.christiangrete.libs.scss"
+    "url": "git://github.com/ChristianGrete/com.christiangrete.libs.scss.git"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
