@@ -1,0 +1,15 @@
+linters:
+  DuplicateProperty:
+    enabled: false
+
+  ElsePlacement:
+    enabled: false
+
+  SpaceAroundOperator:
+    enabled: false
+
+  SpaceBetweenParens:
+    enabled: false
+
+  VendorPrefix:
+    enabled: false
