@@ -25,6 +25,8 @@
     "config/",
     "debug/",
     "docs/",
+    "Gemfile",
+    "Gemfile.lock",
     "Gruntfile.js",
     "node_modules/",
     "package.json",
