@@ -69,7 +69,7 @@ module.exports = function ( $grunt ) {
           },
         'scsslint': {
             'options': {
-                'config': '<%= cfg.PATH__CONFIG %>'
+                'config': '<%= cfg.PATH__CONFIG %>/scss-lint.yml'
               },
             'src': '<%= sassdoc.docs.src %>'
           },
