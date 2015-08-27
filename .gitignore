@@ -5,5 +5,6 @@ composer_packages/
 composer.lock
 debug/
 docs/
+Gemfile.lock
 node_modules/
 npm-debug.log
