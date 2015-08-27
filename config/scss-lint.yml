@@ -5,6 +5,9 @@ linters:
   ElsePlacement:
     enabled: false
 
+  Indentation:
+    enabled: false
+
   SpaceAroundOperator:
     enabled: false
 
