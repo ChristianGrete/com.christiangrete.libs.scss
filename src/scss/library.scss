@@ -1,10 +1,12 @@
-@import 'helpers/cast-bool';
-@import 'helpers/is-bool';
-@import 'helpers/is-color';
-@import 'helpers/is-list';
-@import 'helpers/is-map';
-@import 'helpers/is-null';
-@import 'helpers/is-number';
-@import 'helpers/is-string';
+@import
+  'helpers/cast-bool',
+  'helpers/is-bool',
+  'helpers/is-color',
+  'helpers/is-list',
+  'helpers/is-map',
+  'helpers/is-null',
+  'helpers/is-number',
+  'helpers/is-string';
 
-@import 'rules/selection';
+@import
+  'rules/selection';
